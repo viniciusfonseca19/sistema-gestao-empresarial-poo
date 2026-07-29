@@ -1,4 +1,4 @@
-package dto.request;
+package dto;
 
 public class ProdutoRequest {
     private String nome;
