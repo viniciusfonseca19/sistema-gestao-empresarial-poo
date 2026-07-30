@@ -5,10 +5,10 @@ public class ProdutoRequest {
     private Double preco;
     private Integer estoque;
 
-    ProdutoRequest() {
+    public ProdutoRequest() {
     }
 
-    ProdutoRequest(String nome, Double preco, Integer estoque) {
+    public ProdutoRequest(String nome, Double preco, Integer estoque) {
         this.nome = nome;
         this.preco = preco;
         this.estoque = estoque;
